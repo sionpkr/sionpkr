@@ -6,6 +6,28 @@ I build services by learning the domain first, turning unclear requirements into
 
 [GitHub](https://github.com/Garalulu) | [LinkedIn](https://www.linkedin.com/in/sion-park-4717602a6/) | [Email](mailto:pso9809@gmail.com)
 
+## Skills
+
+**OS**
+
+![OS](https://skillicons.dev/icons?i=windows,linux)
+
+**Languages**
+
+![Languages](https://skillicons.dev/icons?i=python,php,typescript,javascript,c,cpp)
+
+**Frameworks**
+
+![Frameworks](https://skillicons.dev/icons?i=django,flask,laravel,nextjs,react,tailwind)
+
+**IDE**
+
+![IDE](https://skillicons.dev/icons?i=vscode,visualstudio)
+
+**Others**
+
+![Others](https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,docker,aws,githubactions,git,nginx,tensorflow,opencv)
+
 ## Featured Projects
 
 ### [tourney-method](https://github.com/Garalulu/tourney-method)
