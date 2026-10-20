@@ -1,87 +1,87 @@
 # Sion Park
 
-Junior Python / Full-Stack Engineer building practical web, AI, and community products.
+Junior Python / Full-Stack Engineer building web services, AI features, and community tools.
 
-I build services by learning the domain first, turning unclear requirements into workable specifications, and then shipping with backend, database, AI integration, and deployment in mind. My strongest recent work is [tourney-method](https://tourneymethod.com/), a production osu! tournament archive and community contribution platform built after learning PHP and Laravel from scratch.
+I start by understanding the domain and working out what the service needs to do. From there, I work on the backend, database, AI integrations, and deployment.
 
-[GitHub](https://github.com/Garalulu) | [LinkedIn](https://www.linkedin.com/in/sion-park-4717602a6/) | [Email](mailto:pso9809@gmail.com)
+My main project is [tourney-method](https://tourneymethod.com/), an osu! tournament archive and community contribution platform. I learned PHP and Laravel from scratch to build it, and now operate it as a public service.
+
+[GitHub](https://github.com/sionpkr) | [LinkedIn](https://www.linkedin.com/in/sion-park-4717602a6/) | [Email](mailto:pso9809@gmail.com)
 
 ## Skills
 
-**OS**
+Operating systems
 
 ![OS](https://skillicons.dev/icons?i=windows,linux)
 
-**Languages**
+Languages
 
 ![Languages](https://skillicons.dev/icons?i=python,php,typescript,javascript,c,cpp)
 
-**Frameworks**
+Frameworks
 
 ![Frameworks](https://skillicons.dev/icons?i=django,flask,laravel,nextjs,react,tailwind)
 
-**IDE**
+Development environments
 
 ![IDE](https://skillicons.dev/icons?i=vscode,visualstudio)
 
-**Others**
+Databases and tools
 
 ![Others](https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,docker,aws,githubactions,git,nginx,tensorflow,opencv)
 
-## Featured Projects
+## Featured projects
 
-### [tourney-method](https://github.com/Garalulu/tourney-method)
+### [tourney-method](https://github.com/sionpkr/tourney-method)
 
-Production osu! tournament discovery, history, and community contribution platform.
+A live platform for finding osu! tournaments, browsing tournament history, and contributing community records.
 
-- Built and operate a public service at [tourneymethod.com](https://tourneymethod.com/), with 1k logged-in users and active osu! community use.
-- Planned and orchestrated the product, technical direction, contribution workflows, and community-facing feature set.
-- Learned PHP and Laravel from scratch while building a production platform with Laravel 12, PostgreSQL, Redis, Livewire, Alpine.js, Tailwind CSS, Docker Compose, Railway, Pest, PHPStan, and Pint.
-- Supports tournament discovery, player/staff history, user participation records, metadata corrections, multilingual support, notifications, queue monitoring, backups, and health checks.
-- Uses AI coding agents as implementation assistants while I review, direct, integrate, and validate the work.
+- Built and operate [tourneymethod.com](https://tourneymethod.com/), with 1,000 logged-in users and active use in the osu! community.
+- Plan the features, choose the technical approach, and design how community members contribute.
+- Learned PHP and Laravel from scratch while building the service.
+- Support tournament discovery, player and staff history, participation records, metadata corrections, multiple languages, and notifications.
+- Maintain queue monitoring, backups, and health checks.
+- Use AI coding agents to help with implementation, while taking responsibility for technical direction, code review, integration, and validation.
 
-Related: [tourney-method-locales](https://github.com/Garalulu/tourney-method-locales), the public community translation repository.
+Built with Laravel 12, PostgreSQL, Redis, Livewire, Alpine.js, Tailwind CSS, Docker Compose, and Railway. Development tools include Pest, PHPStan, and Pint.
 
-### [AICI / KT AIVLE School VOC TM](https://github.com/Garalulu/AICI_WEB)
+Community translations live in [tourney-method-locales](https://github.com/sionpkr/tourney-method-locales).
 
-Django backend and database project for VOC customer TM results and external construction report management.
+### [AICI / KT AIVLE School VOC TM](https://github.com/sionpkr/AICI_WEB)
 
-- Served as backend and database lead on a company-collaboration project during KT AIVLE School.
-- Designed and built Django backend features for authentication, role-based access control, construction status, TM response status, notices, and map-based construction information.
-- Integrated AI models for speech-to-text, text summarization, issue resolution detection, text correction, date/number formatting, and keyword extraction.
-- Used prior CS/VOC domain understanding to clarify service flow, align team terminology, and guide project direction.
-- Helped the team manage Git collaboration during backend/frontend integration, reaching 200+ commits in about two weeks.
-- Result: Top Award among 50 participating teams.
+A Django service for managing customer service (VOC) TM results and external construction reports, built during a company collaboration at KT AIVLE School.
 
-### [Alyac Search / alyac_detect](https://github.com/Garalulu/alyac_detect)
+- Led backend development and database design.
+- Built authentication, role-based access control, construction and TM response status tracking, notices, and map-based construction information.
+- Integrated AI models for speech-to-text, summarization, issue resolution detection, text correction, date and number formatting, and keyword extraction.
+- Used my CS/VOC domain knowledge to clarify service workflows, establish shared terminology, and help the team decide what to build.
+- Helped coordinate Git collaboration during backend and frontend integration. The team made over 200 commits in about two weeks.
+- Received the Top Award among 50 participating teams.
 
-Image and text based pill identification backend prototype.
+### [Alyac Search / alyac_detect](https://github.com/sionpkr/alyac_detect)
 
-- Built a Python backend that detects text in uploaded images and returns matching pill data as JSON.
-- Worked with Flask, REST API, OpenCV-style image preprocessing, OCR, and public pill data.
-- Designed preprocessing logic to reduce unnecessary model work by filtering relevant object contours before inference.
-- Reported an 89.5% model processing speed improvement through image preprocessing and filtering.
+A Python backend prototype for identifying pills from images and text.
 
-## Tech Stack
+- Built an API that reads text from uploaded images and returns matching pill data as JSON.
+- Used Flask, a REST API, OCR, OpenCV-style image preprocessing, and public pill data.
+- Filtered relevant object contours before inference to reduce unnecessary model work.
+- Reported an 89.5% improvement in model processing speed through preprocessing and filtering.
 
-**Backend:** Python, Django, Flask, REST API, PHP, Laravel, MySQL, PostgreSQL, MongoDB
+## Tech stack
 
-**Frontend and App:** JavaScript, TypeScript, Next.js, HTML, CSS, React Native, Livewire, Alpine.js, Tailwind CSS, PyQt5
+- Backend: Python, Django, Flask, REST API, PHP, Laravel, MySQL, PostgreSQL, MongoDB
+- Frontend and apps: JavaScript, TypeScript, Next.js, HTML, CSS, React Native, Livewire, Alpine.js, Tailwind CSS, PyQt5
+- AI and data: TensorFlow, machine learning, deep learning, computer vision, NLP, OpenCV, pandas, SQL, web crawling, Roboflow
+- Infrastructure and development: Git, GitHub, GitHub Actions, AWS, Gunicorn, Nginx, Redis, Docker Compose, Railway, Vite, Pest, PHPStan, Pint
 
-**AI and Data:** TensorFlow, machine learning, deep learning, computer vision, NLP, OpenCV, pandas, SQL, web crawling, Roboflow
+## How I work
 
-**Infrastructure and Tools:** Git, GitHub, GitHub Actions, AWS, Gunicorn, Nginx, Redis, Docker Compose, Railway, Vite, Pest, PHPStan, Pint
+I learn unfamiliar domains through documentation, existing code, and conversations with users and communities. I turn that understanding into specifications, flowcharts, and shared terminology so the team can agree on what to build.
 
-## How I Work
+I like taking a service through database design and backend implementation to deployment and maintenance, including AI integration when the project calls for it. I use spec-driven development and AI coding agents, and take responsibility for reviewing and integrating the results.
 
-- Learn unfamiliar domains quickly by reading documentation, examples, project code, and user/community context.
-- Convert domain understanding into shared specifications, flowcharts, terminology, and team alignment.
-- Prefer practical delivery: database design, backend implementation, AI model integration, deployment, and maintenance.
-- Use spec-driven development and AI coding agents as tools, while keeping ownership of review, direction, and integration.
-- Communicate clearly through Git, issue-style planning, and written implementation notes.
+I keep decisions and implementation notes in writing, using Git and issue-style planning to make the work easier to follow.
 
-## Current Focus
+## Current focus
 
-- Building production-ready community and data-driven web services.
-- Deepening Python, Django, Laravel, TypeScript, and cloud deployment skills.
-- Improving AI-assisted development workflows through specification, review, and validation.
+I'm building community and data-driven web services for production use while deepening my Python, Django, Laravel, TypeScript, and cloud deployment skills. I'm also refining how I use AI coding agents, particularly how I write specifications, review their work, and validate changes.
