@@ -4,23 +4,21 @@ AI engineer working on model development, evaluation, and deployment, with a bac
 
 I work on edge AI systems: choosing models from measured data, validating them against clear evaluation criteria, and deploying them safely on real devices. I also build and operate web services end to end, including the backend, database, AI integrations, and deployment.
 
-Outside my main field, I built [tourney-method](https://tourneymethod.com/), an osu! tournament archive and community contribution platform. I had no PHP or Laravel experience, so I used AI coding agents and documentation to learn the stack, build the service, and operate it as a public service. It shows that I can take on a domain I do not know yet and still deliver.
+Outside my main field, I built [tourney-method](https://tourneymethod.com/), an osu! tournament archive and community contribution platform. I had no PHP or Laravel experience when I started, so I learned the stack from documentation and AI coding agents, then built the service and now run it publicly.
 
 [GitHub](https://github.com/sionpkr) | [LinkedIn](https://www.linkedin.com/in/sion-park-4717602a6/) | [Email](mailto:pso9809@gmail.com)
 
 ## What I bring
 
-- I work effectively in domains I do not know yet: I understand the service flow first, then use documentation, existing code, and AI tools, and I keep responsibility for direction, review, and validation.
-- I turn a solved problem into reusable structure, so the next project does not start from zero.
-- I take work from design through deployment and maintenance, and I state clearly what has and has not been measured.
+- In a domain I do not know yet, I start from the service flow and use documentation, existing code, and AI tools, while I stay responsible for direction, review, and validation.
+- A problem I have solved once becomes reusable structure, so the next project does not start from zero.
+- I take work from design through deployment and maintenance, and I say what has and has not been measured.
 
 ## AI and MLOps
 
-- **Model development:** Python, PyTorch, and scikit-learn. I compare candidate models under the same protocol, split data by test or event to avoid leakage, and choose with recall and false-alarm numbers.
-- **Evaluation:** I prefer measured data over synthetic data, check per-group results and calibration, and record the limits next to the results.
-- **Deployment:** ONNX and Hailo on Raspberry Pi, systemd services, signed releases, rollback, and human-approved promotion of models.
-- **Practice:** test-driven development, evaluation gates before release, reusable project templates, and written decisions.
-- **Tools:** I use AI coding agents such as Claude Code, review their work, and keep responsibility for validation.
+I develop models in Python with PyTorch and scikit-learn. Candidate models run under the same protocol, data is split by test or event to avoid leakage, and the choice rests on recall and false-alarm numbers. I prefer measured data to synthetic data and write the limits next to the results.
+
+For deployment I use ONNX and Hailo on Raspberry Pi, systemd services, signed releases with rollback, and human-approved model promotion. Around that sit test-driven development, evaluation gates before release, reusable project templates, and written decisions. I use AI coding agents such as Claude Code and review what they produce.
 
 ## Skills
 
@@ -54,10 +52,9 @@ Databases and tools
 
 A live platform for finding osu! tournaments, browsing tournament history, and contributing community records.
 
-This is outside my main field of AI and machine learning. I took it on to show that, with AI coding agents and documentation, I can apply myself to areas I do not know well and still build and run something real.
+This is outside my main field of AI and machine learning. I built it with AI coding agents and documentation, in a stack I had not used before.
 
 - Built and operate [tourneymethod.com](https://tourneymethod.com/), with 1,000 logged-in users and active use in the osu! community.
-- Started with no PHP or Laravel experience and used AI coding agents and documentation to build a production service in that stack.
 - Plan the features, choose the technical approach, and design how community members contribute.
 - Support tournament discovery, player and staff history, participation records, metadata corrections, multiple languages, and notifications.
 - Maintain queue monitoring, backups, and health checks.
