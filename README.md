@@ -2,7 +2,7 @@
 
 AI engineer working on model development, evaluation, and deployment, with a background in Python backend and full-stack web services.
 
-I work on edge AI systems: choosing models from measured data, validating them against clear evaluation criteria, and deploying them safely on real devices. I also build and operate web services end to end, including the backend, database, AI integrations, and deployment.
+I work on edge AI systems: choosing models from measured data, validating them against evaluation criteria, and deploying them safely on real devices. I also build and operate web services end to end, including the backend, database, AI integrations, and deployment.
 
 Outside my main field, I built [tourney-method](https://tourneymethod.com/), an osu! tournament archive and community contribution platform. I had no PHP or Laravel experience when I started, so I learned the stack from documentation and AI coding agents, then built the service and now run it publicly.
 
@@ -80,7 +80,7 @@ A Django service for managing customer service (VOC) TM results and external con
 A Python backend prototype for identifying pills from images and text.
 
 - Built an API that reads text from uploaded images and returns matching pill data as JSON.
-- Used Flask, a REST API, OCR, OpenCV-style image preprocessing, and public pill data.
+- Used Flask with flask-restx for the REST API, EasyOCR for text recognition, and a public pill dataset.
 - Filtered relevant object contours before inference to reduce unnecessary model work.
 - Reported an 89.5% improvement in model processing speed through preprocessing and filtering.
 
@@ -93,9 +93,7 @@ A Python backend prototype for identifying pills from images and text.
 
 ## How I work
 
-I learn unfamiliar domains through documentation, existing code, and conversations with users and communities. I turn that understanding into specifications, flowcharts, and shared terminology so the team can agree on what to build.
-
-I like taking a service through design and implementation to deployment and maintenance, including AI integration when the project calls for it. I use spec-driven development and AI coding agents, and take responsibility for reviewing and integrating the results.
+I also learn from conversations with users and communities, and I turn that understanding into specifications, flowcharts, and shared terminology so the team can agree on what to build. I use spec-driven development and AI coding agents, and I review and integrate the results myself.
 
 I keep decisions and implementation notes in writing, using Git and issue-style planning to make the work easier to follow.
 
