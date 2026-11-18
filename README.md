@@ -1,6 +1,6 @@
 # Sion Park
 
-I'm an AI engineer working on model evaluation and deployment for edge AI. I also build and run web services, from designing the data model to looking after the service once people start using it.
+I'm an AI engineer. I evaluate models for edge devices and build the tools to deploy them. I also design databases and build and run web services.
 
 [LinkedIn](https://www.linkedin.com/in/sion-park-4717602a6/) · [Email](mailto:pso9809@gmail.com)
 
@@ -12,7 +12,7 @@ I built an osu! tournament archive so players could find tournament histories an
 
 **enitt_mlops**
 
-After setting up the evaluation environment for a sensor AI project, I saw that later projects would need the same foundations. I started a Python library and project template for tracking data and code versions, evaluating models, and shipping approved releases. I use them in two ongoing edge AI projects.
+I set up the evaluation environment for a sensor AI project and wanted to reuse it on later projects. I started a Python library and project template for tracking data and code versions, evaluating models, and shipping approved releases. I use them in two ongoing edge AI projects.
 
 **[AICI](https://github.com/sionpkr/AICI_WEB)**
 
@@ -20,4 +20,4 @@ I designed the database and built the Django backend for a customer follow-up to
 
 ## How I learn
 
-PHP and Laravel were new to me when I started Tourney Method. I worked through the documentation and built the service with help from Claude Code and other coding agents. When my initial plans didn't hold together in implementation, I restarted with Spec Kit. Later, I used the existing specs to guide an agent through adding user search. I'm now trying loop engineering on the same project. I enjoy putting unfamiliar ideas to work and changing my approach when I find something that helps.
+PHP and Laravel were new to me when I started Tourney Method. I worked through the documentation and built the service with help from Claude Code and other coding agents. Parts were missing when I tried to turn my first set of plans into code, so I started over with Spec Kit. When I added user search, I used those specs to guide the coding agent. I'm now trying loop engineering on the same project.
