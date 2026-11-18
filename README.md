@@ -10,7 +10,7 @@ Outside my main field, I built [tourney-method](https://tourneymethod.com/), an 
 
 ## What I bring
 
-- In a domain I do not know yet, I start from the service flow and use documentation, existing code, and AI tools, while I stay responsible for direction, review, and validation.
+- I like learning a new stack by building something people can use. I started Tourney Method with no PHP or Laravel experience, learned from the documentation, and used Claude Code and other coding agents while taking responsibility for technical decisions, review, and validation.
 - A problem I have solved once becomes reusable structure, so the next project does not start from zero. The internal MLOps library started that way, on my own initiative.
 - I take work from design through deployment and maintenance, and I say what has and has not been measured.
 
@@ -106,7 +106,9 @@ A Python backend prototype for identifying pills from images and text.
 
 ## How I work
 
-I also learn from conversations with users and communities, and I turn that understanding into specifications, flowcharts, and shared terminology so the team can agree on what to build. I use spec-driven development (Spec Kit) and AI coding agents, and I review and integrate the results myself. On tourney-method I first planned with BMAD Method, restarted from scratch when the stories did not connect in implementation, and moved to Spec Kit with maintained documents, so a new AI session can continue from the previous session's progress.
+On Tourney Method, I initially planned with BMAD Method. When the stories did not fit together in implementation and parts were missing, I restarted and switched to Spec Kit. Later, when I added user search, I used the existing documents and specifications to guide the coding agent in a new session. I'm now trying loop engineering on the same project and seeing what earns a place in my workflow.
+
+I learn from conversations with users and communities, then turn what I learn into specifications, flowcharts, and shared terminology that help the team decide what to build.
 
 I keep decisions and implementation notes in writing, using Git and issue-style planning to make the work easier to follow.
 
